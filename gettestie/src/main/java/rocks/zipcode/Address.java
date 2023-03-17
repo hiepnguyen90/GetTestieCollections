@@ -1,10 +1,13 @@
 package gettestie.src.main.java.rocks.zipcode;
 
+import java.util.HashMap;
+
 public class Address {
     private String street;
     private String town;
     private String postCode;
     private String country;
+
 
     /**
      * Construct an Address without country
